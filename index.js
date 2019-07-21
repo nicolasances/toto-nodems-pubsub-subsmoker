@@ -5,7 +5,7 @@ var handleEvent = require('./evt/HandleEvent');
 var getEvent = require('./dlg/GetEvent');
 
 // API Name
-var apiName = 'pubsub-pubsuber';
+var apiName = 'pubsub-subsmoker';
 
 // Consumer setup 
 var consumer = new TotoEventConsumer(apiName, 'totoPubsubSmoke', handleEvent.do);
